@@ -380,7 +380,7 @@ For any questions you can contact help@praguecollege.cz "))
       (sorting_magpie)
 
   (contains? need_help hd)
-      {(help_type) (color_robin_crow)}
+      {(help_type) (color_robin_crow_magpie)}
    (contains? exit hd)
       (exif)
    :else {newline {(println"sorry we don't have any birds with"hd" color in Kampa park please try again | enter help for more information")(color_magpie_robin)}})))
